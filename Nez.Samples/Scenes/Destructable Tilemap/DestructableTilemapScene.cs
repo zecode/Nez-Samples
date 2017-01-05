@@ -14,6 +14,11 @@ namespace Nez.Samples
 		public DestructableTilemapScene() : base( true, true )
 		{ }
 
+        [Nez.Console.CommandAttribute("srp", "")]
+        public static void setSceneResolutionPolicy(int sceneResolutionPolicy)
+        {
+            Core.scene.setDesignResolution(640, 368, (SceneResolutionPolicy)sceneResolutionPolicy);
+        }
 
 		public override void initialize()
 		{
