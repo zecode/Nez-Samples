@@ -1,0 +1,1 @@
+https://github.com/aloisdeniel/awesome-monogame
